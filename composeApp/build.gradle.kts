@@ -104,9 +104,26 @@ compose.desktop {
         mainClass = "MainKt"
 
         nativeDistributions {
-            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
+            targetFormats(TargetFormat.Exe, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "com.petproject.n_1messenger"
             packageVersion = "1.0.0"
+
+            outputBaseDir.set(project.buildDir.resolve("PCBuild"))
+
+            packageName = "N1 Messenger"
+
+            windows{
+                dirChooser = true
+                perUserInstall = true
+                menuGroup = "start-menu-group"
+
+
+                //upgradeUuid = "UUID"
+            }
         }
+
+        //buildTypes.release.proguard { }
+
+
     }
 }
