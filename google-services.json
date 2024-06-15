@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "973694661785",
+    "project_id": "n1-messenger-multiplatfom-pet",
+    "storage_bucket": "n1-messenger-multiplatfom-pet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973694661785:android:37bd89dcd2b74df4be7408",
+        "android_client_info": {
+          "package_name": "com.petproject.n_1messenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrKgGN5138hO6Oll3LeTYTLgesD8jZwqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
